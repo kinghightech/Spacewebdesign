@@ -1,0 +1,29 @@
+ul,
+li,
+p,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: blueviolet;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+nav li {
+  float: left;
+  padding: 20px 45px 20px 45px;
+  list-style: none;
+  background-color: rgba(96, 38, 85, 1);
+}
+
+nav li:hover {
+  background-color: rgba(49, 169, 147, 0.85);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}

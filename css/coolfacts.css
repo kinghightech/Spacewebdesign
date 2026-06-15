@@ -1,0 +1,143 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 900px;
+}
+
+img {
+  clear: both;
+}
+
+.text-one {
+  color: #bfbab4;
+}
+
+.text-two {
+  color: #a1a3a6;
+}
+
+.text-three {
+  color: #bfbfbf;
+}
+
+.text-four {
+  color: #d95204;
+}
+
+.text-five {
+  color: #f2c53d;
+}
+
+.text-six {
+  color: #a4a6bf;
+}
+
+.text-seven {
+  color: #f2b544;
+}
+
+.text-eight {
+  color: #bf8969;
+}
+
+.text-nine {
+  color: white;
+}
+
+.asteroid-fun-fact {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  align-self: center;
+  text-align: center;
+}
+
+.title-one {
+  color: #686373;
+}
+
+.title-two {
+  color: #81878c;
+}
+
+.title-three {
+  color: #8c8c8c;
+}
+
+.title-four {
+  color: #d3d929;
+}
+
+.title-five {
+  color: #d95d30;
+}
+
+.title-six {
+  color: #7587bf;
+}
+
+.title-seven {
+  color: #f20505;
+}
+
+.title-eight {
+  color: #343ab0;
+}
+
+.title-nine {
+  color: #0511f2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* centers all children horizontally */
+  justify-content: center;
+}
+
+.fun-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 equal columns */
+  gap: 5vh;
+  /* space between cards */
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10vh;
+}
+
+.fun-fact-block {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0px;
+  float: none;
+  text-align: center;
+}
+
+.positioned-image {
+  top: 0;
+  right: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.asteroid-fun-fact {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}

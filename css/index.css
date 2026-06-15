@@ -1,0 +1,239 @@
+.main-content p {
+  font-size: x-large;
+  margin-left: 2vw;
+  margin-right: 3vw;
+}
+
+#earth-img {
+  width: 26.3vh;
+  height: 26.3vh;
+}
+
+#jupiter-img {
+  width: 57.4vh;
+  /*Times compared to mercury times 2*/
+  height: 57.4vh;
+}
+
+#mars-img {
+  width: 14vh;
+  height: 14vh;
+}
+
+img {
+  width: 10vh;
+  height: 10vh;
+}
+
+#neptune-img {
+  width: 20vh;
+  height: 20vh;
+}
+
+#saturn-img {
+  width: 64vh;
+  height: 48vh;
+}
+
+.uncovered {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.left-bar {
+  width: 30%;
+  height: 100%;
+}
+
+.gif-obj {
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  width: 70%;
+  height: 100%;
+}
+
+#mercury-obj {
+  margin-top: 22.784vh;
+}
+
+#earth-obj {
+  margin-top: 25.949vh;
+}
+
+#mars-obj {
+  margin-top: 88.607vh;
+}
+
+#jupiter-obj {
+  margin-top: 216.456vh;
+}
+
+#saturn-obj {
+  margin-top: 254.43vh;
+}
+
+#uranus-obj {
+  margin-top: 569.62vh;
+}
+
+#neptune-obj {
+  margin-top: 633.544vh;
+}
+
+#sun-obj {
+  margin-top: 0px;
+}
+
+.space-obj {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  margin-top: 15vh;
+  /*23.7 million miles*/
+}
+
+.planet-heading {
+  text-align: center;
+  width: 100vw;
+}
+
+#sun-img {
+  width: 100vh;
+  height: 100vh;
+}
+
+#uranus-img {
+  width: 42vh;
+  height: 42vh;
+}
+
+#venus-img {
+  width: 25vh;
+  height: 25vh;
+}
+
+.main-content p {
+  margin-bottom: 10vh;
+  background-color: black;
+}
+
+.sun-text {
+  color: orangered;
+}
+
+.sun-heading {
+  color: orange;
+}
+
+.mercury-txt {
+  color: #d9cfa5;
+}
+
+.mercury-heading {
+  color: #78abe4;
+}
+
+.venus-txt {
+  color: #d99036;
+}
+
+.venus-heading {
+  color: #f2bc57;
+}
+
+.earth-txt {
+  color: #d8def2;
+}
+
+.earth-heading {
+  color: #173aff;
+}
+
+.mars-txt {
+  color: #d95436;
+}
+
+.mars-heading {
+  color: #f27244;
+}
+
+.jupiter-txt {
+  color: #d8664d;
+}
+
+.jupiter-heading {
+  color: #d9a362;
+}
+
+.saturn-txt {
+  color: #bf9d73;
+}
+
+.saturn-heading {
+  color: #d9b779;
+}
+
+.uranus-txt {
+  color: #04bfbf;
+}
+
+.uranus-heading {
+  color: #acf2eb;
+}
+
+.neptune-txt {
+  color: #446ff2;
+}
+
+.neptune-heading {
+  color: #4981f2;
+}
+
+/*The below is from: https://css-tricks.com/snippets/css/typewriter-effect/   */
+
+.welcome {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.15em solid #173aff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  transition: color 0.3s ease;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end;
+  -webkit-animation: typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    border-color: #173aff;
+  }
+}

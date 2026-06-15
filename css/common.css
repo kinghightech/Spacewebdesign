@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  background-image: url("../assets/img/background.png");
+  font-family: "Orbitron", sans-serif;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: large;
+}
+
+.menu-bar {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+  padding: 15px;
+  opacity: 0.9;
+}
+
+.meteor-link {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 245, 253);
+  font-size: 23px;
+  z-index: 1;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.meteor-link img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: auto;
+  z-index: -1;
+}
+
+.meteor-link:hover {
+  transform: scale(1.04);
+  color: beige;
+}
+
+.fun-fact-blocks {
+  margin-left: 20px;
+  display: flex;
+}
+
+.fun-fact-block {
+  display: flex;
+  margin-left: 3vw;
+  width: 18vw;
+  height: 18vw;
+  border: 3px solid black;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.fun-fact-block p {
+  margin: 8px;
+}
+
+/*The below is from: https://css-tricks.com/snippets/css/typewriter-effect/   */
+
+.welcome {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.15em solid #173aff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  transition: color 0.3s ease;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end;
+  -webkit-animation: typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  50% {
+    border-color: #173aff;
+  }
+}
